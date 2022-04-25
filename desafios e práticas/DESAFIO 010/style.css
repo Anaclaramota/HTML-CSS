@@ -1,0 +1,112 @@
+@charset UTF-8 
+*{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu&display=swap');
+@font-face {
+    font-family:'android '
+    src: url(../fontes/idroid.otf);
+}
+
+ /* o root é uma variavel em css, o tronco de uma arvore, serve pra gente demarcar algumas coisas  que se repetirão em todo o doc ou coisas que podem ser mudadas com mais facilidade, usa-se a tag root e dentro dela a classe que queremos, cores, fonte... */ 
+
+ :root{
+    --fonte-texto: Arial, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --font-droid: 'android, sans-serif';
+    --cor00: #1A5F38; 
+    --cor01: #103a22;
+    --cor02: #84E1AD;
+    --cor03: #3BD47F;
+
+     
+ }
+header{
+    
+    background-image: linear-gradient(to top, #1A5F38,#3BD47F);
+    color: white;
+    text-align: center;
+    font-family: var(--fonte-destaque);
+  padding-top: 40px;
+    
+}
+header h1{ font-size: 2.5em;}
+nav{ 
+    text-align: left;
+    padding: 20px; 
+}
+a.menu{
+    text-decoration: none;
+    color: white;
+    margin-right: 25px;
+}
+a:hover.menu { background-color:  #103a22;
+padding: 5px;
+transition-duration: .5s;
+}
+body{
+    background-color: #84E1AD;
+} 
+a{
+    color: black;
+}
+main{
+    
+    align-self: auto;
+    background-color: white;
+    min-width: 400px;
+    max-width:800px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px  0px 10px rgba(0, 0, 0, 0.792);
+}
+h1{
+    font-family: var(--font-droid);
+    text-indent: 15px;
+}
+p{
+    font-family: var(--font-droid);
+    text-indent: 15px;
+}
+div.video{ background: #103a22;
+    
+    padding-left: 100px;
+    padding-bottom: -10px;
+}
+    
+.extra{
+    background-color: #247848;
+    color: black
+}
+
+h2{ font-family: 'android, sans-serif';
+    text-indent: 15px;
+    background-image: linear-gradient(to right, #6fe1a2,white);
+}
+li{
+    text-decoration: none;
+}
+article {
+    min-width: 320px;
+    max-width: 600px;
+    padding: 40px;
+    background-color: #6fe1a2;
+    border-radius: 10px;
+    margin: 20px;
+   
+}
+aside{
+    text-indent: 15px;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 20px;
+}

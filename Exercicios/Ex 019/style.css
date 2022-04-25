@@ -1,0 +1,13 @@
+@charset UTF-8
+*{
+    width:100px;
+    
+}
+body{
+    width: 100%;
+    background-image: linear-gradient( to right,darkcyan,cyan);
+}
+main{
+    background-color: darkcyan;
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        a {
+            color: black;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+        a:visited{
+            color: grey;
+        }
+        a:hover{
+           
+            text-decoration: underline;
+            color: black;
+        }
+        a:active{
+            color: yellow;
+        }
+        a::after{ content: '[link]';
+        color: darkblue;
+    
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizando links </h1>
+    <ul>
+        <li><a target="_blank" href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/15%20-Seletores%20personalizados.pdf">repositório github</a> </li>
+        <li><a target="_blank"href="https://www.youtube.com/watch?v=E6CdIawPTh0&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=13">canal do youtube</a></li>
+        <li><a target="_blank" href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/#google_vignette">site curso em video</a></li>
+    
+    </ul>
+</body>
+</html>

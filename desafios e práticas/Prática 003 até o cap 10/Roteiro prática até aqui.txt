@@ -1,0 +1,29 @@
+Roteiro de tudo até aqui
+
+
+iserir na pagina,
+
+- padrao html
+-hierarquia de títulos 
+- paragrafos e quebras de linha 
+- imagens 
+  - emojis 
+  -imagens grandes
+  -favicons
+  -imagens pequenas
+  -gifs
+- links
+  -paginas externas
+  -paginas internas
+  - links para download
+- listas 
+  - ordenadas
+  - nao ordenadas
+- abreviações
+- alguns caracteres especiais
+- cores de fundo
+- marcação de texto
+- tags semanticas 
+- negrito e itálico 
+- citações e códigos
+- 

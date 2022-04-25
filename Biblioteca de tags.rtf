@@ -1,0 +1,291 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.22000}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang22 Biblioteca de tags\par
+\par
+! - CODIGO BASE HTML --------crtl-shift-p= envelopar tag \par
+hr- linha horizontal \par
+<h1> - titulo de nivel 1 \par
+<h2>- titulo de segundo nivel, subordinado ao anterior \par
+<p> - paragrafo \par
+<br> quebra de linha \par
+----------------------------------------------\par
+&lt; - caracter especial < \par
+&gt; - caracter especial >\par
+<!--  - Comentario \par
+&reg; - caracter especial de marca registrada\par
+&copy; - caracter especial de copyright\par
+&euro; - caracter especial de euro\par
+&poud; - caracter especial de libra\par
+&uarr; -  seta para cima \par
+----------------------------------------------\par
+&#x + codigo - tag para emoji \par
+img - para imagem na mesma pasta - crtl + espa\'e7o\par
+link:favicon - para gerar um logo de pagina \par
+lorem -gerador de paragrafo blablabla ol\par
+-----------------------------------------------\par
+Tags semanticas- que d\'e3o sentido ao texto \par
+\tab\par
+address- dando sentido a um endere\'e7o, fica em it\'e1lico mas nao \'e9 a forma e sim o sentido \par
+strong - termo em destaque (Negrito)\par
+em - tag para \'eanfase (italico)\par
+mark -texto marcado \par
+style - tag para estilos \par
+backgroung color - muda a cor dentro da tag estilo\tab\par
+big- texto grande\par
+small- texto pequeno (leia as letras miudas)\par
+del- texto excluido(deve ser lido e nao considerado) riscado \par
+ins - texto inserido (sublinhado com sentido)\par
+sup - para fazer um texto como \'b2 texto  sup escrito \par
+sub - para fazer o contrario, sobre escrito \par
+pre - da indenta\'e7\'e3o ao codigo, mantendo a melhor leitura do codigo \par
+code - tag para codigo fonte, mantem o texto monoespa\'e7ado\par
+q - quote, cita\'e7\'e3o simples, sem quebras\par
+blockquote - cita\'e7\'f5es completas em bloco, um trecho maior ou paragrafo de livro  \par
+cite - pode ser usado dentro do blockquote para levar a pg onde esta fazendo a cita\'e7\'e3o\par
+abbr - tag para abrevia\'e7\'e3o onde vc pode descrever o significado da sigla \par
+----------------------------------------------------------------------\par
+Tags para listas \par
+ol- lista ordenada, organiza alista pra voce \par
+type = dentro de ol diz se a lista deve ser numerica, alfabetica, minuscula ou n romanos \par
+li- item de lista a\par
+ul - tag para listas nao ordenadas\par
+type= circle, square, \par
+li- cada item para lista \par
+dt- lista de defini\'e7\'e3o onde coloca-se o termo \par
+dd -descre\'e7\'e3o do termo colocado na dt \par
+----------------------------------------------------\par
+tags para link \par
+a - links externos \par
+usa-se a apos a o link o recurso (PARAMETRO) TARGET="_BLANK" para abrir em nova aba \par
+ou TARGET="_self" \'b4para abrir na mesma pagina \par
+O target _blank \'e9 usado para abrir o link em uma nova aba \par
+e nao para sobrepor o link ao site ja aberto\par
+link interno tambem \'e9 feito com a tag  a \par
+usa-se o atalho ctrl + espa\'e7o para abir as opcoes disponiveis \par
+../ para retornar a pasta anterior em seu arquivo de codigo \par
+REL="EXTERNAL"\par
+REL= SELF\par
+REL=NOFALLOW\par
+REL=SAFE\par
+\par
+---------------------------------------------------------------------------\par
+\par
+Tags para imagens dinamicas \par
+site para imagens gratis pixels e videos \par
+a tag <img> para imagens \par
+vamos usar a tag especial <picture> \par
+que indica que haver\'e1 uma imagem dentro dessa tag\par
+dentro de <picture> vamos usar a tag source-type. \par
+E configurar as imagens para abrir de acordo com o tamanho do uso .\par
+\par
+para audios em html\par
+usa-se a tag <audio>\par
+com os parametros - control e autoplay \par
+\par
+dentro da tag audio usa-se o preload= para carregar o arquivo todo de audio\par
+algumas informa\'e7\'f5es ou nenhuma informa\'e7a\'f5. sua escolha vai depender do tamanho\par
+do arquivo de audio que vc tem, pro site nao ficar pesado.\par
+\par
+pode usar o parametro loop pra musica de fundo ficar tocando direto \par
+\par
+em alguns navegadores nao v\'e3o funcionar portanto vc pode\par
+colocar em ordem para executar os seguintes formatos.\par
+audio/mpeg para mp3\par
+audio/ogg \par
+oudio/wav\par
+um est\'e1 subordinado a nao execu\'e7\'e3o do outro\par
+\par
+\par
+tags para videos em html\par
+\par
+a tag usada \'e9 \par
+<video>\par
+width \'e9 o parametro que define a largura \par
+poster= parametro usado pra definir a tamb \par
+controls para aparecer o controlador do video\par
+\par
+PARA COLOCAR VARIOS FORMATOS DE MIDIAS PARA OS DIFERENTES TIPOS DE NAVEGADOR \par
+AS TAGS SAO= \par
+\par
+SOURCE= ARQUIVO A SER INSERIDO TYPE= FORMATO A SER INSERIDO\par
+\par
+E SUBORDINADO A ESSE OUTROS ARQUIVOS QUE S\'d3 SER\'c3O\par
+EXECUTADOS CASO O ACIMA NAO EXECUTE \par
+\par
+\par
+Para colocar videos externos, como do youtube basta criar o c\'f3digo \par
+html diretamente no youtube ou vimeo  atraves do compartilhar / incorporar\par
+\par
+--------------------------------------------------------------------------\par
+\par
+INICIO DOS ESTUDOS DE CSS\par
+\par
+Dentro da tag> body usa-se a tag para confg inline \par
+style\par
+font-family - para mudar a fonte da letra\par
+fonte-size - tamanho da letra\par
+color - para mudar a cor  \par
+text-aling- para alinhamento de textos \par
+\par
+para adicionar estilos internos em cada pagina usa-se a tag\par
+style e seus parametros dentro de head e usa marca\'e7\'f5es(seletores)\par
+ como h1 p para chamar a mudan\'e7a que voce quer fazer\par
+\par
+para criar estilos em cascata, ou seja para ser usado de maneira geral no site \par
+cria-se um arquivo style.css e a tag usada \'e9 a \par
+link.css, a partir desse arquivo voce pode fazer qualquer configura\'e7ao\par
+de estilo que ser\'e1 usada em toda pagina que vc usar o link.css e adicionar o \par
+arquivo style.css (que voce pode nomear como quiser) \par
+\par
+voce pode criar mais de um arquivo style.css para por exemplo estilos a serem\par
+aplicados em paginas de exibi\'e7\'e3o de produto e outros estilos que devem ser \par
+aplicados em paginas de compra e login\par
+\par
+em ordem de hierarquia de poder de config\par
+o inline \par
+o interno\par
+o externo \par
+\par
+--------------------------------------------------------\par
+modulo 02 come\'e7a falando de cores \par
+\par
+as cores podem ser representadas de diversas formas..\par
+rgb, numeros exadecimais, hsl...\par
+\par
+harmonia de cores - circulos crom\'e1ticos \par
+cores primarias\par
+amarelo-vermelho-azul\par
+\par
+temperatura de cores \par
+cores frias e quentes \par
+\par
+tags para cores\par
+style\par
+color para cor de letra\par
+background color para cor de fundo \par
+\par
+ criando uma paleta para um site\par
+tem de 3 a 5 cores e vai de acordo com a marca, a categoria e o publico que\par
+o produto quer atingur\par
+cores complemetares sao as que mais tem constraste\par
+cores analogas s\'e3o cores irmas \par
+no circulo cromatico vc pode testar e criar paletas que se harmonizam \par
+com o site adobe color voce pode criar sua paleta de cores\par
+com o si\par
+\par
+para fazer DEGRADE usa-se as tags\par
+style-> backgroung-image- linear-degrade e codigo da cor \par
+\par
+------------------------------------------\par
+*\{\} sao configura\'e7oes globais do css (depois vamos saber mais)\par
+\par
+--------------------------------------------------\par
+\par
+    main\{\par
+        background-color: white; --- cor de fundo \par
+        border-radius: 10px; distancia da lateral , par ir pro centro \par
+        box-shadow: 5px,5px,10px,#665b53ae; sombra no box \par
+        width: 600px; largura \par
+        padding: 10px; \par
+        margin:auto ;\par
+\par
+CAPITULO 14- FONTES\par
+Anatomia das fontes a emo\'e7\'e3o que elas passam\par
+fontes serifadas x nao serifadas - ideais para impressao em telas\par
+tag para fonte= font- family \par
+noramal usar-> arial, helvetica, sans-serif \par
+TAMANHO DAS FONTES\par
+PODEM ESTAR EM PX OU EM(tamanho do m maiusculo)\par
+1em = 16px \par
+font-style= indica o estilo que deve atribuir ao estilo da fonte. O valor pra esse seletor pode ser italic, normal, oblique\par
+font-weight= indica o negrito da fonte pode ser de 100 a 900. \par
+essas atribui\'e7\'f5es se d\'e3o sempre que a fonte escolhida possuir todas essa op\'e7\'f5es de confg \par
+para todas essas configura\'e7\'f5es de fontes podemos usar o shorthad\par
+uma configura\'e7\'e3o que premite todos os valores na tag \par
+font- \par
+deve-se informar os valores em ordem\par
+font-style\par
+font-variant\par
+font-weight\par
+font-size\par
+font-family\par
+--------------------------------------------------------------------------------------\par
+ALINHAMENTOS \par
+USA-SE A TAG\par
+text-align-  left, right, center, justify\par
+\par
+--------------------------------------------------------------------------\par
+Para usar fontes do google fontes basta selecionar a fonte e importar em css\par
+ja dara o codigo da fonte em css pra gente. e gol \par
+\par
+---------------------------------------------------------------------------------\par
+SELETORES PERSONALIZADOS \par
+formata\'e7\'f5es especiais\par
+ID-  identifica um unico item no code e permite que a ela se fa\'e7a uma configura\'e7\'e3o em css espec\'edfica\par
+CLASS- quando queremos identificar um conjunto de pares que devem ter a mesma config, independente se forem h1, h2, p....\par
+ID = em css \'e9 #\par
+CLASS= em em css \'e9 . \par
+---------------------------------------------------------------------------\par
+pseudo-classes e peseudo-elementos \par
+/.. div= \'e9 um espaco no doc \par
+pseudo classe esta relacionado ao ESTADO  de um determinado elemento \par
+a pseudo classe em css \'e9 representada com :\par
+hover= \'e9 um elemento que tras uma mudan\'e7a com o mouse\par
+visited = \'e9 uma pseudoclasse para um link visitado\par
+active= quando o link esta ativo\par
+text-decoration- para tirar o sublinhado do link= none\par
+text-decoration - underline para subilinhar\par
+\par
+------------------------------------------------------------------------\par
+usamos as tags \par
+div= um espa\'e7o a ser configurado\tab\par
+display= block -> para mostrar \par
+display none = para esconder\par
+criamos uma interface que lembra de um menu, com elementos aparecendo e sumindo\par
+PSEUDO-ELEMENTOS\par
+Age diretamente no conteudo perif\'e9rico do elemento.\par
+\'c9 representado por ::\par
+adicona conteudo perif\'e9rico ao elemento \par
+como setas indicando um link por ex\par
+\par
+SELETORES PERSONALIZADOS\par
+# =id\par
+.=class\par
+: = pseudoclasse\par
+::pseudoelementos\par
+> =children \par
+MODELO DE CAIXAS EM CSS\par
+ANATOMIA DAS CAIXAS \par
+HEIGTH= ALTURA\par
+WIDTH= LARGURA \par
+BORDER= borda, linha que circunda o conteudo\par
+PADDING= ACOLCHOAMENTO entre o conteudo e a borda \par
+MARGIN= Margem que esta por fora da borda\par
+OUTLINE = CONTORNO\par
+TIPOS DE CAIXA\par
+BOX LEVEL=\par
+isolado na linha\par
+Se inicia na linha de baixo e ocupa toda a largura da tela\par
+div= \'e9 uma tag de caixa  \par
+INLINE LEVEL\par
+dentro da linha \par
+span= tag de inline level \par
+ come\'e7a no meio da linha se precisar, ocupa apenas o que \'e9 necessario para caixa e o conteudo continua quando a caixa acaba\par
+ \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+}
+ 

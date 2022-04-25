@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-classes</title>
+    <style>
+        
+      #principal{
+          color: rgb(116, 135, 201);
+          background-color: rgb(242, 168, 57);
+      }
+        h1{ background-color:rgba(240, 194, 79, 0.682);}
+        .id{
+            color: green;
+        }
+        .class{
+            color: red;
+        }
+        .pseudo{
+            color: blueviolet;
+        }
+
+        div{ 
+            background-color: rgb(161, 158, 158);
+            color: rgba(249, 249, 8, 0.97);
+            font-size: 1em;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div > ul{ display: none;}
+       div:hover > ul{ display: block;}
+
+    div:hover{
+        color: red;
+    }
+
+    </style>
+</head>
+<body>
+    <main>
+    <h1 id="principal">Testando pseudo classes</h1>
+    <h1 class="id ">Veremos exemplos de id</h1>
+    <div id="menu"> Menu</div>
+    <div>
+        <ul>
+            <li> Cadastro</li>
+            <li>sobre nos </li>
+            <li>contato</li>
+            <li>produtos </li>
+        </ul>
+    </div>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos veniam voluptate nobis neque voluptatem odit sunt nesciunt ipsam minima asperiores excepturi explicabo autem labore, saepe amet soluta incidunt quam ullam, veritatis, libero adipisci quasi provident harum recusandae? Ea repellendus, officiis recusandae quod et quae fugit hic alias, nesciunt eius distinctio doloremque explicabo illum suscipit quisquam? Necessitatibus, laudantium. Nam officia voluptatem vero architecto, unde soluta incidunt omnis sequi fugiat sapiente nemo placeat perferendis illum modi tenetur, laboriosam error enim. Neque, harum, aliquam ad accusamus non optio in temporibus explicabo dolorum quas debitis expedita? Molestias accusantium quos cum saepe numquam d </p>
+    <h1 class="class">Veremos exemplos de class</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi ratione natus dolore necessitatibus dignissimos quisquam illo molestiae dolorum in voluptatum non assumenda facilis consequuntur nesciunt ea voluptate alias, commodi cumque laboriosam esse. Porro molestias quia quod minima nostrum autem similique adipisci ad illo labore ex temporibus eum sint mollitia, laudantium repellat, corporis cumque nam. Repellendus facere dolor at delectus, cupiditate modi eligendi sint voluptate soluta aut quo, nemo, deleniti nisi laboriosam reiciendis rerum aspernatur quisquam culpa ullam? Eaque at sit excepturi obcaecati maxime debitis iure, ab rem, in fugit aut quae iste eum, cumque fuga quidem sed quaerat consectetur neque?</p>
+    <h1 class="pseudo ">Veremos exemplos de pseudo-classes </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus veniam ab ea numquam deleniti perspiciatis repudiandae odit nihil! Necessitatibus atque quam aperiam reiciendis deleniti. Eveniet iste mollitia in facere, veritatis consequatur. Porro libero nam asperiores recusandae ipsam autem fugiat delectus unde illo rerum deserunt vero, accusantium sequi voluptate placeat temporibus facilis earum inventore deleniti tenetur facere! Iure dolor ea veritatis rem sed? Ex saepe, quia distinctio, neque, enim sint ipsa maxime non modi aliquid libero doloremque pariatur suscipit dolor. Officia soluta incidunt optio tempore facere, nisi magni laborum rem! Molestiae minus in hic similique officia amet quibusdam libero facere. Eligendi.</p>
+    </main>
+</body>
+</html>
